@@ -8,21 +8,36 @@
 <title>MyCryptoTrader - торговый бот</title>
 
 <style>
-body {
-  font-family: Arial, sans-serif;
-  background: #f2f2f2;
-  padding: 20px;
+body{
+	color: var(--tg-theme-text-color);
+	background: var(--tg-theme-bg-color);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 18px;
 }
 
-h1, h2, h3 {
-    text-align: center;
-    color: var(--tg-theme-text-color);
+.hint{
+	color: var(--tg-theme-hint-color);
 }
 
-p {
-    text-align: justify;
-    line-height: 1.5;
-    color: var(--tg-theme-hint-color);
+.link{
+	color: var(--tg-theme-link-color);
+}
+
+.button{
+	background: var(--tg-theme-button-color);
+	color: var(--tg-theme-button-text-color);
+	border: none;
+	font-size: 18px;
+}
+
+.button:not(:last-child){
+	margin-bottom: 20px
+}
+
+#usercard{
+	text-align: center;
 }
 
 .container {
@@ -45,7 +60,7 @@ p {
 
 <body>
 
-<div class="container">
+
 
 <h1>MyCryptoTrader - ваш личный трейдер на основе ИИ!</h1>
 
@@ -95,7 +110,6 @@ p {
 
 <p>Наш торговый робот основан на уникальном алгоритме машинного обучения, использующем метрику Лоренцевского расстояния. В физике пространство Лоренца широко известно благодаря описанию искривления пространства-времени в Общей теории относительности Эйнштейна. Но эта абстрактная концепция также находит применение в анализе финансовых временных рядов. Мы используем Лоренцевское расстояние в новой имплементации алгоритма приближенного поиска ближайших соседей. Это позволяет нашему роботу эффективно классифицировать исторические данные и предсказывать будущее направление движения цены.</p>
 
-</div>
 
 </body>
 </html>
